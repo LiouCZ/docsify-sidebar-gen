@@ -68,6 +68,7 @@
       // -----------------------------------------------------------------
       markdown: {
         // smartypants: true,
+        breaks: true, //启用软换行
         renderer: { //图片相对路径重定向
           image: function(href, title, text) {
             const pattern2 = /src="[http:|https:|/](\S+)"/i;
